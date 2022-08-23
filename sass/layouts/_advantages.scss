@@ -1,0 +1,65 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list-advantages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
+}
+
+
+
+.icon-advantage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 25px;
+    background: #f5f4fa;
+}
+
+.icon-advantage {
+    width: 70px;
+    height: 70px;
+}
+
+.advantages-description {
+    width: 270px;
+}
+
+.emoloyees-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.subtitle-text {
+    line-height: 1.71;
+    color: #757575;
+}
+
+.list {
+    justify-content: center;
+    display: flex;
+}

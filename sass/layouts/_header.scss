@@ -1,0 +1,138 @@
+.header {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo_link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-right: 93px;
+}
+
+.header__logo_color {
+    color: #000000;
+}
+
+.pagenav__list{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu-link.current {
+    color: var(--accent-color);
+}
+.pagenav__item:not(:last-child) {
+    margin-right: 50px;
+    align-items: center;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 50px;
+    align-items: center;
+}
+
+.menu__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    transition: color var(--transition-dur-and-fun);
+
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        transition: color var(--transition-dur-and-fun);
+    }
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.menu__email {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color var(--transition-dur-and-fun);
+
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.menu__phone_number {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    padding-right: 15px;
+    transition: color var(--transition-dur-and-fun);
+
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        transition: color var(--transition-dur-and-fun);
+    }
+}
+
+.social-list-icons {
+    align-items: center;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: color var(--transition-dur-and-fun);
+
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        transition: color var(--transition-dur-and-fun);
+    }
+}
+
+.social-list-item {
+    
+    width: 44px;
+    height: 44px;
+}
+.menu__link_studio::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+    content: '';
+    position: absolute;
+    bottom: -28px;
+}

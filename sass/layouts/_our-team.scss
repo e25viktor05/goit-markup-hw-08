@@ -1,0 +1,92 @@
+.team-section {
+    background-color: #f5f4fa;
+}
+
+.team-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #f5f4fa;
+}
+
+.employees-title {
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.employees-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.employees-card {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.empolyees-card-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+}
+
+.position {
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: background-color var(--transition-dur-and-fun);
+
+
+    &:hover,
+    &:focus {
+        background-color: #2196f3;
+
+    }
+
+    &hover .social-list-icon,
+    &focus .social-list-icon {
+        fill: #ffffff;
+        cursor: pointer;
+    }
+}
+
+.social-list-icon {
+    fill: #afb1b8;
+    transition: fill var(--transition-dur-and-fun);
+}
