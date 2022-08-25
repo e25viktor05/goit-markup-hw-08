@@ -38,7 +38,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open"data-menu-open>
           <svg class="mobile-menu-open__icon" width="40"  height="40">
             <use href="./images/sprite.svg#icon-burger-mobile"></use>
           </svg>
@@ -62,11 +62,26 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-button" data-menu-close>
+          <svg class="mobile-menu__close-icon" width="40" height="40"> <use href="./images/sprite.svg#icon-close"></use></svg>
+        </button>
+        <ul>
+          <li>
+            <a href="">link</a></li>
+          <li>
+            <a href="">link</a></li>
+          <li>
+            <a href="">link</a></li>
+        </ul>
+        </div> 
+      </div>
     </header>
     
   <!--/// ==end of header ==//// -->
   <!-- //==beginning of hero==// -->
-    <!-- <main> -->
+    <main>
   <!-- <section class="color-hero hero-section">
         <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
         <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
@@ -539,7 +554,10 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-  </body>
+    
+  
 </html> -->
-  <!-- ===end of modal window  ===-->
+  <!-- удали закриваючий тег штмл он лишний===end of modal window  ===-->
+  <script src="./js/mobile-menu.js"></script>
+</body>
 </html>

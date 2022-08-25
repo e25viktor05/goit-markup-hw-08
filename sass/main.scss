@@ -1,12 +1,15 @@
 @import'./utils/variables';
 @import'./utils/visually-hidden';
 
-
 @import'./base/common';
 @import'./base/section';
 @import'./base/container';
 
 @import'./components/modal-btn';
+@import'./components/mobile-menu';
+@import'./components/backdrop';
+@import'./components/modal-window';
+@import'./components/modal-form';
 
 @import'./layouts/header';
 @import'./layouts/hero';
@@ -19,8 +22,6 @@
 @import'./layouts/portfolio-hero';
 @import'./layouts/portfolio-projects';
 
-@import'./components/backdrop';
-@import'./components/modal-window';
-@import'./components/modal-form';
+
 
 
