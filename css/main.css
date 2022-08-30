@@ -137,6 +137,10 @@ body {
   padding-bottom: 48px;
 }
 
+.header__logo_link {
+  text-decoration: none;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
