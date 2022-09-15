@@ -432,6 +432,34 @@ body {
   .current {
     color: var(--accent-color);
   }
+  .menu__email,
+.menu__item {
+    list-style: none;
+  }
+  .menu__email {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color var(--transition-dur-and-fun);
+  }
+  .menu__email:hover, .menu__email:focus {
+    color: var(--accent-color);
+  }
+  .menu__phone_number {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    padding-right: 15px;
+    transition: color var(--transition-dur-and-fun);
+  }
+  .menu__phone_number:hover, .menu__phone_number:focus {
+    color: var(--accent-color);
+    transition: color var(--transition-dur-and-fun);
+  }
 }
 @media screen and (min-width: 1200px) {
   .header {
@@ -461,34 +489,78 @@ body {
     align-items: center;
     margin-left: auto;
   }
+  .social-list-icons {
+    align-items: center;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: color var(--transition-dur-and-fun);
+  }
+  .social-list-icons:hover, .social-list-icons:focus {
+    fill: var(--accent-color);
+    transition: color var(--transition-dur-and-fun);
+  }
+  .social-list-item {
+    width: 44px;
+    height: 44px;
+  }
+  .menu__link_studio::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+    content: "";
+    position: absolute;
+    bottom: -28px;
+  }
 }
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  width: 691px;
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .hero-section {
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/mobile-pictures/mobile-studio/header\ mobile\ img.jpg);
+    background-size: cover;
+    background-color: #c4c4c4;
+  }
 }
-
-.color-hero {
-  background: #2f303a;
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 691px;
+  }
+  .color-hero {
+    background: #2f303a;
+  }
+  .hero-section {
+    padding-bottom: 200px;
+    padding-top: 200px;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-image/header-img.jpg);
+    background-size: cover;
+    background-color: #c4c4c4;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
 }
-
-.hero-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-image/header-img.jpg);
-  background-size: cover;
-  background-color: #c4c4c4;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
