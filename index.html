@@ -85,11 +85,18 @@
   <section class="color-hero hero-section">
        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
         <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
-     <picture>
-       <img
-    srcset="./images/mobile-pictures/mobile-studio/header-mobile-img@2x.jpg"
-    src="./images/mobile-pictures/mobile-studio/header-mobile-img.jpg"
+     <div>
+       <picture>
+      <source 
+       
+      srcset="./images/mobile-pictures/mobile-studio/header-mobile-img.jpg, ./images/mobile-pictures/mobile-studio/header-mobile-img@2x.jpg"
+      media="(min-width: 320 px)"
+    
+       <img src="./images/mobile-pictures/mobile-studio/header-mobile-img.jpg" alt="retina picture" class="picture img">
+    
      </picture>
+     </div>
+       
        
       </section>
   <!-- ===end of hero=== -->
