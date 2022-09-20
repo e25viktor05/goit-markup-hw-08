@@ -20,7 +20,6 @@
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(/images/mobile-studio/header-mobile-img.jpg);
-
     background-size: cover;
     background-color: #c4c4c4;
 }
@@ -56,7 +55,10 @@ background-color: #c4c4c4;
     padding-top: 200px;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/header-image/header-img.jpg);
+     url(../../images/header-image/header-img.jpg);
+    // ../../images/header-image/header-img@2x.jpg,
+    // ../../images/header-image/header-img@2x.webp);
+
                     background-size: cover;
                     background-color: #c4c4c4;
                     max-width: 1600px;
