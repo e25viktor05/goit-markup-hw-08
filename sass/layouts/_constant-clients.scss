@@ -1,13 +1,34 @@
-.constant-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
+@media screen and (min-width:460px){
+   
 .constant-client-list {
-    display: flex;
     justify-content: center;
     list-style: none;
 }
+}
+
+
+@media screen and (min-width:768px){
+.constant-client-list {
+        
+        justify-content: center;
+        list-style: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .constant-clients {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    .constant-client-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+        }
+}
+}
+
+
+
 
 .client-list-icon {
     width: 170px;
