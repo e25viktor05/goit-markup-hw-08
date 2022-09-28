@@ -637,9 +637,13 @@ body {
     width: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: 480px) {
+  .what-we-do {
+    display: none;
+  }
+}
 .what-we-do {
   padding-top: 0;
-  display: none;
 }
 
 .business-subheading {
@@ -755,7 +759,6 @@ body {
 }
 @media screen and (min-width: 768px) {
   .constant-client-list {
-    justify-content: center;
     list-style: none;
   }
 }
@@ -798,11 +801,16 @@ body {
   margin-right: 30px;
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 480px) {
+  .footer-container {
+    align-items: baseline;
+  }
 }
-
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+  }
+}
 .list-menu {
   list-style: none;
 }
