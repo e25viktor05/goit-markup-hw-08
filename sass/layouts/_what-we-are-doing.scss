@@ -1,29 +1,21 @@
-@media screen and (min-width:768px) {
-.section{
-    display: none;
+.what-we-do {
+  padding-top: 0;
+  display: none;
 }
-.container{
-    display:none;
+
+.business-subheading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-    .what-we-do {
-    padding-top: 0;
-    display: none;
-    }
 
-    .business-subheading {
-        text-align: center;
-        margin-bottom: 50px;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-    }
-
-    .do-list {
-        justify-content: center;
-        display: flex;
-        gap: 30px;
-        list-style: none;
-    }
+.do-list {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
