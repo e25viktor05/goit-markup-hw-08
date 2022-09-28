@@ -19,9 +19,6 @@
 .header__container {
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,16 +31,20 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
-  color: var(--accent-color);
+}
+.header__logo_color {
+  color: #212121;
 }
 
 @media screen and (min-width: 768px) {
-  
   .mobile-menu-open {
     display: none;
   }
   .header__logo_link {
     margin-right: 87px;
+  }
+  .header__logo_color {
+    color: #212121;
   }
 
   .menu-link.current {
@@ -89,7 +90,7 @@
     list-style: none;
   }
   .menu__email {
-    // display: flex;
+    display: flex;
     align-items: center;
     font-size: 14px;
     line-height: 1.14;

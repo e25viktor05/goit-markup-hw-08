@@ -374,9 +374,6 @@ body {
 .header__container {
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -390,7 +387,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
-  color: var(--accent-color);
+}
+
+.header__logo_color {
+  color: #212121;
 }
 
 @media screen and (min-width: 768px) {
@@ -399,6 +399,9 @@ body {
   }
   .header__logo_link {
     margin-right: 87px;
+  }
+  .header__logo_color {
+    color: #212121;
   }
   .menu-link.current {
     color: var(--accent-color);
@@ -437,6 +440,7 @@ body {
     list-style: none;
   }
   .menu__email {
+    display: flex;
     align-items: center;
     font-size: 14px;
     line-height: 1.14;
