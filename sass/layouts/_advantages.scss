@@ -17,7 +17,11 @@
   list-style: none;
   gap: 30px;
 }
-
+@media screen and (max-width: 767px) {
+  .icon-advantage-container {
+    width: 100%;
+  }
+}
 .icon-advantage-container {
   display: flex;
   align-items: center;
@@ -33,9 +37,9 @@
   height: 70px;
 }
 
-.advantages-description {
-  width: 270px;
-}
+// .advantages-description {
+//   width: 270px;
+// }
 
 .emoloyees-section {
   padding-top: 94px;
