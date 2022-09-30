@@ -1,13 +1,25 @@
-@media screen and (min-width: 460px) {
+@media screen and (max-width: 767px) {
   .constant-client-list {
+    display: flex;
+    flex-basis: calc((100% - 30px) / 2);
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .constant-client-list {
     list-style: none;
+  }
+  .constant-client-list {
+    display: flex;
+    flex-basis: calc((100% - 60px) / 3);
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 
@@ -20,6 +32,8 @@
     display: flex;
     justify-content: center;
     list-style: none;
+    flex-basis: calc((100% - 150px) / 6);
+    flex-wrap: nowrap;
   }
 }
 
@@ -49,7 +63,4 @@
   &:focus {
     border-color: #2196f3;
   }
-}
-.constant-client-item:not(:last-child) {
-  margin-right: 30px;
 }

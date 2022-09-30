@@ -1,6 +1,10 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer-container {
-    align-items: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // align-items: baseline;
   }
 }
 
@@ -9,9 +13,10 @@
     display: flex;
   }
 }
-
-.list-menu {
-  list-style: none;
+@media screen and (min-width: 1200px) {
+  .list-menu {
+    list-style: none;
+  }
 }
 
 .footer-menu-item:not(:last-child) {

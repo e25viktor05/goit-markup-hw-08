@@ -1,6 +1,8 @@
 @media screen and (max-width: 768px) {
   .employees-card {
     flex-basis: calc((100% - 90px) / 2);
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 .team-section {

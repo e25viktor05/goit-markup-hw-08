@@ -65,10 +65,12 @@ body {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
     margin-left: auto;
     margin-right: auto;
+    max-width: 480px;
+    min-width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -163,7 +165,6 @@ body {
   }
   .mobile-menu-social-list {
     display: flex;
-    gap: 20px;
   }
   .mobile-menu-social-item {
     font-weight: 500;
@@ -172,16 +173,17 @@ body {
     letter-spacing: 0.02em;
     color: #2196f3;
   }
-  .mobile-menu-social-link:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    right: -10px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block;
-    width: 1px;
-    height: 22px;
-    background-color: rgba(33, 33, 33, 0.2);
+  .mobile-menu-social-link {
+    border-right: 1px solid tomato;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .mobile-menu-social-link:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+  .mobile-menu-social-link:first-child {
+    padding-left: 0;
   }
   .mobile-menu__close-button {
     position: absolute;
@@ -763,6 +765,8 @@ body {
 @media screen and (max-width: 768px) {
   .employees-card {
     flex-basis: calc((100% - 90px) / 2);
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 .team-section {
@@ -853,15 +857,27 @@ body {
   transition: fill var(--transition-dur-and-fun);
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (max-width: 767px) {
   .constant-client-list {
+    display: flex;
+    flex-basis: calc((100% - 30px) / 2);
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 768px) {
   .constant-client-list {
     list-style: none;
+  }
+  .constant-client-list {
+    display: flex;
+    flex-basis: calc((100% - 60px) / 3);
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -873,6 +889,8 @@ body {
     display: flex;
     justify-content: center;
     list-style: none;
+    flex-basis: calc((100% - 150px) / 6);
+    flex-wrap: nowrap;
   }
 }
 .client-list-icon {
@@ -899,13 +917,12 @@ body {
   border-color: #2196f3;
 }
 
-.constant-client-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer-container {
-    align-items: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 768px) {
@@ -913,10 +930,11 @@ body {
     display: flex;
   }
 }
-.list-menu {
-  list-style: none;
+@media screen and (min-width: 1200px) {
+  .list-menu {
+    list-style: none;
+  }
 }
-
 .footer-menu-item:not(:last-child) {
   margin-bottom: 10px;
 }
