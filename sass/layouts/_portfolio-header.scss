@@ -1,51 +1,50 @@
 .menu-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  position: relative;
 }
 .header {
-    padding-top: 24px;
-    border-bottom: 1px solid #ececec;
-    padding-bottom: 24px;
+  padding-top: 16px;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 16px;
 }
 
 .menu__phone_number {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    display: flex;
-    align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .menu__email {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    display: flex;
-    align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  display: flex;
+  align-items: center;
 }
 
-
 .menu__link_portfolio::after {
-    display: block;
-    width: 78px;
-    height: 4px;
-    background-color: #2196f3;
-    border-radius: 2px;
-    content: '';
-    position: absolute;
-    bottom: -28px;
+  display: block;
+  width: 78px;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  bottom: -28px;
 }
 
 .social-list-icons {
-    align-items: center;
-    margin-right: 10px;
-    fill: currentColor;
+  align-items: center;
+  margin-right: 10px;
+  fill: currentColor;
 }

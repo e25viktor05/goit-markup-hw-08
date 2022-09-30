@@ -298,6 +298,16 @@ body {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 768px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+}
 .modal-window-text {
   font-weight: 700;
   font-size: 20px;
@@ -623,6 +633,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #c4c4c4;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 
 @media (min-resolution: 2dppx) {
@@ -632,12 +644,12 @@ body {
 }
 @media (min-width: 480px) {
   .hero-section {
-    background-image: url(../../images/mobile-studio/header-mobile-img.jpg);
+    background-image: url(../images/mobile-studio/header-mobile-img.jpg);
   }
 }
 @media (min-width: 480px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: url(../images/tablet-studio/tablet-header-img@2x.jpg);
+    background-image: url(../images/mobile-studio/header-mobile-img@2x.jpg);
   }
 }
 @media (min-width: 768px) {
@@ -703,6 +715,7 @@ body {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .subtitle-text {
@@ -1063,9 +1076,9 @@ body {
 }
 
 .header {
-  padding-top: 24px;
+  padding-top: 16px;
   border-bottom: 1px solid #ececec;
-  padding-bottom: 24px;
+  padding-bottom: 16px;
 }
 
 .menu__phone_number {
