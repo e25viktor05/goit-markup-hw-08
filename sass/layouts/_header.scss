@@ -37,6 +37,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .menu__item {
+    margin-top: 10px;
+  }
   .mobile-menu-open {
     display: none;
   }
@@ -62,7 +65,7 @@
   }
 
   .menu__item:not(:last-child) {
-    margin-right: 50px;
+    // margin-right: 50px;
     align-items: center;
   }
 
