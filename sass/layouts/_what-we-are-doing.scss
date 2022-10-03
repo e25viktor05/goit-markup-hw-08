@@ -31,3 +31,22 @@
   gap: 30px;
   list-style: none;
 }
+
+.work-thumb {
+  position: relative;
+}
+.work-thumb .work-text {
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  display: flex;
+  min-width: 100%;
+  min-height: 70px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+}
