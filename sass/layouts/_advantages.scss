@@ -11,12 +11,6 @@
   overflow: hidden;
 }
 
-.list-advantages {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  gap: 30px;
-}
 @media screen and (max-width: 767px) {
   .icon-advantage-container {
     width: 100%;
@@ -61,15 +55,23 @@
   line-height: 1.71;
   color: #757575;
 }
-@media screen and (min-width: 480px) {
-  .list {
-    justify-content: center;
-  }
+
+.list {
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .list {
     display: flex;
     width: calc((100% - 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list-advantages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
   }
 }

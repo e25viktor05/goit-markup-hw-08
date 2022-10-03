@@ -121,62 +121,68 @@
       transition: color var(--transition-dur-and-fun);
     }
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .header {
-    padding-bottom: 24px;
-    padding-top: 24px;
-    border-bottom: 1px solid #ececec;
-  }
-  .header__container {
-    justify-content: flex-start;
-  }
-  .page-nav {
-    display: flex;
-    align-items: center;
-  }
-  .header__logo_link {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-    text-decoration: none;
-    margin-right: 93px;
-  }
-  .menu {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-
-  .social-list-icons {
-    align-items: center;
-    margin-right: 10px;
-    fill: currentColor;
-    transition: color var(--transition-dur-and-fun);
-
-    &:hover,
-    &:focus {
-      fill: var(--accent-color);
-      transition: color var(--transition-dur-and-fun);
+  @media screen and (min-width: 1200px) {
+    .menu__item {
+      flex-direction: row;
+      gap: 30px;
+      justify-content: space-between;
     }
-  }
+    .header {
+      padding-bottom: 24px;
+      padding-top: 24px;
+      border-bottom: 1px solid #ececec;
+    }
+    .header__container {
+      justify-content: flex-start;
+    }
+    .page-nav {
+      display: flex;
+      align-items: center;
+    }
+    .header__logo_link {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color: var(--accent-color);
+      text-decoration: none;
+      margin-right: 93px;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      gap: 25px;
+    }
 
-  .social-list-item {
-    width: 44px;
-    height: 44px;
-  }
-  .menu__link_studio::after {
-    display: block;
-    width: 48px;
-    height: 4px;
-    background-color: #2196f3;
-    border-radius: 2px;
-    content: '';
-    position: absolute;
-    bottom: -28px;
+    .social-list-icons {
+      align-items: center;
+      margin-right: 10px;
+      fill: currentColor;
+      transition: color var(--transition-dur-and-fun);
+
+      &:hover,
+      &:focus {
+        fill: var(--accent-color);
+        transition: color var(--transition-dur-and-fun);
+      }
+    }
+
+    .social-list-item {
+      width: 44px;
+      height: 44px;
+    }
+    .menu__link_studio::after {
+      display: block;
+      width: 48px;
+      height: 4px;
+      background-color: #2196f3;
+      border-radius: 2px;
+      content: '';
+      position: absolute;
+      bottom: -28px;
+    }
   }
 }
