@@ -1,8 +1,40 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  .employees-list {
+    flex-direction: column;
+    row-gap: 30px;
+    display: flex;
+
+    // flex-basis: calc((100% - 90px) / 2);
+    // margin-right: auto;
+    // margin-left: auto;
+  }
+
   .employees-card {
-    flex-basis: calc((100% - 90px) / 2);
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+      0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
+
+    .empolyees-card-description {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .employees-list {
+    display: flex;
+    flex-basis: calc ((100% - 30px) / 2);
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 .team-section {
