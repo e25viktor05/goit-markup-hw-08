@@ -44,22 +44,22 @@
 
 @media (min-width: 768px) {
   .hero-section {
-    background-image: url(../images/header-image/header-img.jpg);
+    background-image: url(../images/tablet-studio/tablet-header-img.jpg);
   }
   @media (min-resolution: 2dppx) {
     .hero-section {
-      background-image: url(../../images/header-image/header-img@2x.jpg);
+      background-image: url(../images/tablet-studio/tablet-header-img@2x.jpg);
     }
   }
 }
 
 @media (min-width: 1200px) {
   .hero-section {
-    background-image: url(../../images/header-image/header-img.jpg);
+    background-image: url(../images/desktop-studio/hero-desktop-img@1x.jpg);
   }
   @media (min-resolution: 2dppx) {
     .hero-section {
-      background-image: url(../../images/header-image/header-img@2x.jpg);
+      background-image: url(../images/desktop-studio/hero-desktop-img@2x.jpg);
     }
   }
 }
