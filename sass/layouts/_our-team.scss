@@ -3,10 +3,6 @@
     flex-direction: column;
     row-gap: 30px;
     display: flex;
-
-    // flex-basis: calc((100% - 90px) / 2);
-    // margin-right: auto;
-    // margin-left: auto;
   }
 
   .employees-card {
@@ -30,7 +26,7 @@
 @media screen and (min-width: 768px) {
   .employees-list {
     display: flex;
-    flex-basis: calc ((100% - 30px) / 2);
+    flex-basis: 226px;
     justify-content: center;
     list-style: none;
     flex-wrap: wrap;
@@ -50,16 +46,6 @@
   background: #f5f4fa;
 }
 
-.employees-title {
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-  text-align: center;
-  margin-bottom: 50px;
-}
 .employees-list {
   list-style: none;
   display: flex;
@@ -126,4 +112,28 @@
 .social-list-icon {
   fill: #afb1b8;
   transition: fill var(--transition-dur-and-fun);
+}
+@media screen and (max-width: 1199px) {
+  .employees-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .employees-title {
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: inherit;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }

@@ -30,11 +30,6 @@
   width: 70px;
   height: 70px;
 }
-
-// .advantages-description {
-//   width: 270px;
-// }
-
 .emoloyees-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -63,7 +58,7 @@
 @media screen and (min-width: 768px) {
   .list {
     display: flex;
-    width: calc((100% - 30px) / 2);
+    // width: calc((100% - 30px) / 2);
   }
 }
 
