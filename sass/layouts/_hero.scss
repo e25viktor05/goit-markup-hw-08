@@ -1,4 +1,5 @@
 .hero-title {
+  max-width: 360px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -38,14 +39,21 @@
     }
   }
 }
-
+.modal-btn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (min-width: 768px) {
   .hero-section {
-    background-size: 768px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-    background-image: url(../images/tablet-studio/tablet-header-img.jpg);
+    background-color: #c4c4c4;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/tablet-studio/tablet-header-img.jpg);
   }
   @media (min-resolution: 2dppx) {
     .hero-section {
@@ -56,11 +64,6 @@
 }
 
 @media (min-width: 1200px) {
-  .modal-btn {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .hero-title {
     font-weight: 900;
     font-size: 44px;

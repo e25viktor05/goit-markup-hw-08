@@ -35,8 +35,21 @@
 .header__logo_color {
   color: #212121;
 }
+.menu__link_studio::after {
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  bottom: -24px;
+}
 
 @media screen and (min-width: 768px) {
+  .menu__link_studio::after {
+    bottom: -34px;
+  }
   .menu__item {
     margin-top: 10px;
   }
@@ -123,6 +136,9 @@
   }
 
   @media screen and (min-width: 1200px) {
+    .menu__link_studio::after {
+      bottom: -24px;
+    }
     .menu__item {
       flex-direction: row;
       gap: 30px;
@@ -173,16 +189,6 @@
     .social-list-item {
       width: 44px;
       height: 44px;
-    }
-    .menu__link_studio::after {
-      display: block;
-      width: 48px;
-      height: 4px;
-      background-color: #2196f3;
-      border-radius: 2px;
-      content: '';
-      position: absolute;
-      bottom: -28px;
     }
   }
 }

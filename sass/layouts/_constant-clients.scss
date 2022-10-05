@@ -11,13 +11,9 @@
 
 @media screen and (min-width: 768px) {
   .constant-client-list {
-    list-style: none;
-  }
-  .constant-client-list {
     display: flex;
     flex-basis: calc((100% - 60px) / 3);
     justify-content: center;
-    list-style: none;
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -31,7 +27,6 @@
   .constant-client-list {
     display: flex;
     justify-content: center;
-    list-style: none;
     flex-basis: calc((100% - 150px) / 6);
     flex-wrap: nowrap;
   }

@@ -24,13 +24,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .employees-list {
-    display: flex;
-    flex-basis: 226px;
+  container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .employees-card {
+    flex-basis: calc((100% - 30px) / 2);
     justify-content: center;
     list-style: none;
     flex-wrap: wrap;
-    gap: 30px;
+    // gap: 30px;
+
+    display: flex;
+    // flex-basis: 226px;
+    // justify-content: center;
+    // list-style: none;
+    // flex-wrap: wrap;
+    // gap: 30px;
   }
 }
 .team-section {
@@ -53,15 +64,12 @@
   gap: 30px;
 }
 
-.employees-card {
-  flex-basis: calc((100% - 90px) / 4);
-}
-
 .empolyees-card-description {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   background-color: #ffffff;
+  width: 100%;
 }
 
 .names {
@@ -125,6 +133,9 @@
     color: #212121;
     margin-bottom: 30px;
   }
+  .empolyees-card-description {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .employees-title {
@@ -135,5 +146,8 @@
     color: inherit;
     margin-bottom: 50px;
     text-align: center;
+  }
+  .employees-card {
+    flex-basis: calc((100% - 90px) / 4);
   }
 }
