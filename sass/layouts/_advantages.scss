@@ -16,6 +16,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .advantages-description {
+    padding-bottom: 30px;
+  }
   .icon-advantage-container {
     max-width: 768px;
   }
@@ -58,10 +61,14 @@
 @media screen and (min-width: 768px) {
   .list-advantages {
     display: flex;
-    justify-content: center;
-    flex-basis: calc((100% - 30px) / 2);
     flex-wrap: wrap;
     gap: 30px;
+  }
+  .advantages-description {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 354px;
   }
 }
 
