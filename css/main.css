@@ -349,13 +349,13 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   .agree-to-subscription {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
   }
   .accept-terms-link {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
@@ -378,13 +378,13 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   .agree-to-subscription {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
   }
   .accept-terms-link {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
