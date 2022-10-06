@@ -46,11 +46,11 @@
     margin-right: auto;
     width: 354px;
   }
-}
-.team-section {
-  background-color: #f5f4fa;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  .team-section {
+    background-color: #f5f4fa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .team-container {
@@ -154,5 +154,10 @@
   }
   .employees-card {
     flex-basis: calc((100% - 90px) / 4);
+  }
+  .team-section {
+    background-color: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }

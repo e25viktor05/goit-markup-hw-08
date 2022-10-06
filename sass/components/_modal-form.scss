@@ -2,7 +2,7 @@
   .modal-form-submit {
     align-self: center;
     min-width: 140px;
-    height: 24px;
+    height: 44px;
     line-height: 0.87;
     color: #fff;
     background: var(--accent-color);
@@ -12,6 +12,19 @@
     border: none;
     transition: var(--transition-dur-and-fun);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  }
+  .agree-to-subscription {
+    font-size: 10px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  .accept-terms-link {
+    font-size: 10px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2196f3;
   }
 }
 
@@ -29,6 +42,19 @@
     border: none;
     transition: var(--transition-dur-and-fun);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  }
+  .agree-to-subscription {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  .accept-terms-link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2196f3;
   }
 }
 
@@ -172,19 +198,4 @@
       outline: var(--accent-color);
     }
   }
-}
-
-.agree-to-subscription {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.accept-terms-link {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration-line: underline;
-  color: #2196f3;
 }

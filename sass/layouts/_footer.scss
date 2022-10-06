@@ -55,6 +55,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-container {
+    align-items: baseline;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -134,11 +135,13 @@
     line-height: 1.88;
     color: #ffffff;
     letter-spacing: 0.06em;
-    margin-top: 20px;
+    margin-top: 0;
   }
   .logo-footer-container {
     flex-direction: column;
     text-align: left;
+    margin-left: 0;
+    margin-right: 0;
   }
   .footer-paragraph {
     display: flex;
@@ -149,16 +152,25 @@
     display: table-row;
   }
 
-  .footer-social-list-container {
-    margin-left: 70px;
-  }
+  // .footer-social-list-container {
+  //   margin-left: 94px;
+  // }
   .footer-subscription-container {
     margin-top: 0;
-    margin-left: 93px;
+    margin-right: 0;
+    margin-left: 0;
   }
   .footer-subscribe-to-newsletter {
-    padding-top: 10px;
     text-align: left;
+  }
+  .footer-container {
+    align-items: baseline;
+  }
+  .footer-form {
+    display: flex;
+  }
+  .footer-container {
+    justify-content: space-between;
   }
 }
 
