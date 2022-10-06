@@ -14,13 +14,14 @@
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   }
   .agree-to-subscription {
-    font-size: 8px;
+    font-size: 7px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-left: 3px;
   }
   .accept-terms-link {
-    font-size: 8px;
+    font-size: 7px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
@@ -28,7 +29,7 @@
   }
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 480px) {
   .modal-form-submit {
     align-self: center;
     min-width: 150px;
@@ -48,6 +49,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-left: 8px;
   }
   .accept-terms-link {
     font-size: 12px;
@@ -178,12 +180,12 @@
   &::before {
     content: '';
     display: block;
-    width: 16px;
-    height: 15px;
-    border: 1px solid #212121;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-right: 7px;
+    // width: 16px;
+    // height: 15px;
+    // border: 1px solid #212121;
+    // cursor: pointer;
+    // border-radius: 4px;
+    // margin-right: 7px;
 
     .modal-form-check:checked + &::before {
       background-color: var(--accent-color);

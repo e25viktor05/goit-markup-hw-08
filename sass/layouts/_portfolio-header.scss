@@ -1,3 +1,49 @@
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .menu__item {
+    display: none;
+  }
+  .mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+  .pagenav__item {
+    display: none;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__logo_link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  .header__logo_color {
+    color: #212121;
+  }
+  .menu__link_studio::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+    content: '';
+    position: absolute;
+    bottom: -24px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .header {
     padding-top: 16px;

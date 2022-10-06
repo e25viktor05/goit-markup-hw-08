@@ -349,20 +349,21 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   .agree-to-subscription {
-    font-size: 8px;
+    font-size: 7px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-left: 3px;
   }
   .accept-terms-link {
-    font-size: 8px;
+    font-size: 7px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: #2196f3;
   }
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 480px) {
   .modal-form-submit {
     align-self: center;
     min-width: 150px;
@@ -382,6 +383,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-left: 8px;
   }
   .accept-terms-link {
     font-size: 12px;
@@ -507,12 +509,6 @@ body {
 .modal-form-check-desc::before {
   content: "";
   display: block;
-  width: 16px;
-  height: 15px;
-  border: 1px solid #212121;
-  cursor: pointer;
-  border-radius: 4px;
-  margin-right: 7px;
 }
 .modal-form-check:checked + .modal-form-check-desc::before::before {
   background-color: var(--accent-color);
@@ -1399,6 +1395,50 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .menu__item {
+    display: none;
+  }
+  .mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+  .pagenav__item {
+    display: none;
+  }
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__logo_link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  .header__logo_color {
+    color: #212121;
+  }
+  .menu__link_studio::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+    content: "";
+    position: absolute;
+    bottom: -24px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .header {
     padding-top: 16px;
@@ -1493,6 +1533,14 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
   transition: color var(--transition-dur-and-fun), background var(--transition-dur-and-fun), box-shadow var(--transition-dur-and-fun);
+}
+
+.portfolio-list-hero {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 94px;
 }
 
 .overlay {
