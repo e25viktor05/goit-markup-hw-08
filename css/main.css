@@ -164,6 +164,9 @@ body {
     padding: 48px 40px;
     height: 100%;
     overflow: scroll;
+    position: relative;
+    display: flex;
+    flex-direction: column;
   }
   .mobile-menu-item--current {
     color: #2196f3;
@@ -185,7 +188,7 @@ body {
     margin-bottom: 32px;
   }
   .mobile-contact {
-    margin-top: 306px;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -231,8 +234,6 @@ body {
   .mobile-menu__close-button:hover {
     fill: var(--accent-color);
   }
-}
-@media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
     width: 100vw;
@@ -251,9 +252,6 @@ body {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
-  .mobile-menu__container {
-    position: relative;
   }
   .header__logo_link {
     text-decoration: none;
@@ -731,6 +729,7 @@ body {
     background-color: #c4c4c4;
     padding-top: 81px;
     padding-bottom: 118px;
+    background-size: cover;
   }
 }
 @media screen and (max-width: 767px) and (min-resolution: 2dppx) {
@@ -752,12 +751,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #c4c4c4;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet-studio/tablet-header-img.jpg);
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet-studio/tablet-header-img.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet-studio/tablet-header-img@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet-studio/tablet-header-img@2x.jpg);
   }
 }
 @media (min-width: 1200px) {
@@ -920,6 +920,12 @@ body {
   border-radius: 4px;
 }
 
+.team-section {
+  background-color: #f5f4fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 @media screen and (max-width: 767px) {
   .employees-list {
     flex-direction: column;
@@ -945,11 +951,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 354px;
-  }
-  .team-section {
-    background-color: #f5f4fa;
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
 }
 .team-container {

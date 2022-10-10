@@ -34,6 +34,7 @@
     background-color: #c4c4c4;
     padding-top: 81px;
     padding-bottom: 118px;
+    background-size: cover;
   }
 
   @media screen and (min-resolution: 2dppx) {
@@ -56,13 +57,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #c4c4c4;
+    background-size: cover;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/tablet-studio/tablet-header-img.jpg);
+      url(../images/tablet-studio/tablet-header-img.jpg);
   }
   @media (min-resolution: 2dppx) {
     .hero-section {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images/tablet-studio/tablet-header-img@2x.jpg);
+        url(../images/tablet-studio/tablet-header-img@2x.jpg);
     }
   }
 }
